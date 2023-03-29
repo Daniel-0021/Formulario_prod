@@ -2,14 +2,6 @@
 
   <style>
 
-.form-style-porto {
-  max-width: 500px;
-  width: 100%;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid gray;
-  border-radius: 5px;
-}
 .form-group {
   display: flex;
   flex-direction: column;
@@ -61,12 +53,8 @@ p {
 }
   </style>
 
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
-
   <script> $(document).ready(function() {
-    $(".form-style-porto").validate({
+    $(".form").validate({
       rules: {
         Tipo_material: {
           required: true
@@ -162,7 +150,6 @@ p {
 
 
 
-    <form class="form-style-porto" action="https://www.silivre.com/wp-content/themes/porto/resultado.php">
             <h2>Anuncie Categoria Fita de Bordas</h2>
     <div class="form-group">
       <label for="Tipo_material">Descreva o Material</label>
